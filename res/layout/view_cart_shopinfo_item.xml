@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:padding="5.0dip"
+              android:background="@color/white"
+        >
+
+    <RelativeLayout
+            android:layout_width="100.0dip"
+            android:layout_height="100.0dip"
+            >
+
+        <ImageView
+                android:id="@+id/iv_cart_item_image"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/border_80"
+                android:scaleType="fitXY"
+                />
+    </RelativeLayout>
+
+    <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginRight="10.0dip"
+            >
+
+        <!--保存和获取属性 id，不用显示-->
+        <TextView
+                android:id="@+id/tv_cart_item_hide_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                />
+
+        <TextView
+                android:id="@+id/tv_cart_item_title"
+                style="@style/style_15_666666_BOLD"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:ellipsize="end"
+                android:lines="1"
+                android:textSize="18sp"
+                android:text="标题"
+                />
+
+        <TextView
+                android:id="@+id/tv_cart_item_price"
+                style="@style/style_15_C21513_BOLD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_cart_item_title"
+                android:textSize="18sp"
+                android:text="1999"
+                />
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/tv_cart_item_price"
+                >
+
+            <TextView
+                    android:id="@+id/tv_cart_cut_num"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:background="@drawable/cart_text_border"
+                    android:text="-"
+                    />
+
+            <EditText
+                    android:id="@+id/et_cart_product_num"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:inputType="textNoSuggestions"
+                    android:gravity="center_horizontal"
+                    android:background="@drawable/cart_text_border"
+                    android:focusable="false"
+                    android:text="1"
+                    />
+
+            <TextView
+                    android:id="@+id/tv_cart_add_num"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:background="@drawable/cart_text_border"
+                    android:text="+"
+                    />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+            android:id="@+id/tv_cart_item_del"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="删除"
+            android:background="@drawable/add_cart_bg"
+            />
+
+</LinearLayout>

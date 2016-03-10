@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="afinal_0.5_bin">
+    <CLASSES>
+      <root url="jar://F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/libs/afinal_0.5_bin.jar!/" />
+      <root url="jar://F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/libs/alibaba.jar!/" />
+      <root url="jar://F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/libs/android-async-http-1.4.4.jar!/" />
+      <root url="jar://F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/libs/android-support-v4.jar!/" />
+      <root url="jar://F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/libs/asmack.jar!/" />
+      <root url="jar://F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/libs/commons-codec.jar!/" />
+      <root url="jar://F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/libs/commons-lang3-3.0-beta.jar!/" />
+      <root url="jar://F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/libs/nineoldandroids-2.4.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

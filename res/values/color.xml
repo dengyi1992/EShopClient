@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transient_bg">#212121</color>
+    <color name="white">#fff</color>
+    <color name="login_button">#ff775025</color>
+
+    <!-- 黑色 -->
+    <color name="black">#000000</color>
+    <!-- 亮蓝色 -->
+    <color name="darkgray">#a9a9a9</color>
+    <!-- 金黄色 -->
+    <color name="goldyellow">#ff9428</color>
+    <!-- 透明 -->
+    <color name="transparent">#00000000</color>
+
+
+</resources>

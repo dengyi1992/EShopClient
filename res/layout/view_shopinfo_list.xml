@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/home_backgroud"
+        >
+
+    <RelativeLayout
+            android:id="@+id/rl_show_shoplist"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            >
+
+        <LinearLayout
+                android:id="@+id/ll_linRank"
+                android:layout_width="fill_parent"
+                android:layout_height="35dp"
+                android:background="@drawable/segment_bg"
+                android:gravity="center"
+                android:orientation="horizontal"
+                >
+
+            <TextView
+                    android:id="@+id/tv_shopinfo_list_rankSale"
+                    style="@style/style_13_4B4B4B_BOLD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/sales"
+                    />
+
+            <TextView
+                    android:id="@+id/tv_shopinfo_list_rankPrice"
+                    style="@style/style_13_4B4B4B_BOLD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/price"
+                    />
+
+            <TextView
+                    android:id="@+id/tv_shopinfo_list_rankGood"
+                    style="@style/style_13_4B4B4B_BOLD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/goodDegree"
+                    />
+        </LinearLayout>
+
+        <com.github.PullToRefresh.PullToRefreshListView
+                android:id="@+id/lv_pull_refresh_list"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@id/ll_linRank"
+                android:cacheColorHint="#00000000"
+                android:divider="@drawable/listview_item_line"
+                android:listSelector="@anim/index_item_bg"
+                android:dividerHeight="1dp"
+                android:fadingEdge="none"
+                android:fastScrollEnabled="false"
+                android:footerDividersEnabled="false"
+                android:headerDividersEnabled="false"
+                android:smoothScrollbar="true"
+                />
+    </RelativeLayout>
+
+    <TextView
+            android:id="@+id/tv_no_shoplist"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="没有商品"
+            android:textSize="26sp"
+            android:visibility="gone"
+            />
+
+</RelativeLayout>

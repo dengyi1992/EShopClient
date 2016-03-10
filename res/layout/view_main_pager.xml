@@ -1,0 +1,160 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+        >
+
+    <android.support.v4.view.ViewPager
+            android:id="@+id/vp_home_viewpage"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            />
+
+    <LinearLayout
+            android:id="@+id/ll_home_viewpage_point"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/vp_home_viewpage"
+            android:background="#33000000"
+            android:orientation="vertical"
+            android:padding="8dp"
+            >
+
+        <LinearLayout
+                android:id="@+id/ll_point_group"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="1dp"
+                android:orientation="horizontal"
+                >
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/main_middle1"
+            android:layout_below="@id/ll_home_viewpage_point"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:background="#FFF"
+            >
+
+        <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                >
+
+            <ImageButton
+                    android:id="@+id/imbt_index_promotion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/app_home_shortcuts_button_selector"
+                    android:src="@drawable/shortcuts_icon_promotion"
+                    />
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/index_promotion"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/micro_text_size"
+                    />
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                >
+
+            <ImageButton
+                    android:id="@+id/imbt_index_recharge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/app_home_shortcuts_button_selector"
+                    android:src="@drawable/shortcuts_icon_recharge"
+                    />
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/index_recharge"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/micro_text_size"
+                    />
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                >
+
+            <ImageButton
+                    android:id="@+id/imbt_index_groupbuy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/app_home_shortcuts_button_selector"
+                    android:src="@drawable/shortcuts_icon_groupbuy"
+                    />
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/index_group_buy"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/micro_text_size"
+                    />
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                >
+
+            <ImageButton
+                    android:id="@+id/imbt_index_shake"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/app_home_shortcuts_button_selector"
+                    android:src="@drawable/shortcuts_icon_life_journey"
+                    />
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/index_shake"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/micro_text_size"
+                    />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ListView
+            android:id="@+id/lv_homelist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/main_middle1"
+            android:background="@android:color/background_light"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="#ffff4444"
+            android:dividerHeight="1dp"
+            android:listSelector="@drawable/lv_selectr"
+            >
+    </ListView>
+
+
+</RelativeLayout>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/layout_personal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/personel_layout_bg"
+        >
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+        <ImageView
+                android:id="@+id/personal_background_image"
+                android:layout_width="match_parent"
+                android:layout_height="320dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="-100dp"
+                android:background="@drawable/my_personal_not_login_bg"
+                />
+
+        <com.kerray.eshop.widgets.CustomScrollView
+                android:id="@+id/personal_scrollView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    android:orientation="vertical"
+                    >
+
+                <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        >
+
+                    <TextView
+                            android:id="@+id/bt_personal_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:text="@string/personal_welcome"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/medium_text_size"
+                            />
+
+                    <Button
+                            android:id="@+id/bt_personal_login_button"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/my_personal_click_login"
+                            android:text="@string/personal_login"
+                            android:textColor="#F00"
+                            android:textSize="@dimen/small_text_size"
+                            android:textStyle="bold"
+                            />
+                </RelativeLayout>
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/personel_layout_bg"
+                        android:orientation="vertical"
+                        >
+
+                    <TextView
+                            style="@style/PersonalCenterText"
+                            android:text="@string/personal_account_center"
+                            />
+
+                    <LinearLayout
+                            style="@style/PersonalMainLayoutStyle"
+                            android:visibility="visible"
+                            >
+
+                        <RelativeLayout style="@style/PersonalTopStyle">
+
+                            <ImageView
+                                    android:id="@+id/personal_money_icon"
+                                    style="@style/PersonalIconStyle"
+                                    android:src="@drawable/personel_waitpay_order"
+                                    />
+
+                            <TextView
+                                    style="@style/PersonalTextStyle"
+                                    android:layout_toRightOf="@id/personal_money_icon"
+                                    android:text="余额"
+                                    />
+
+                            <TextView
+                                    android:id="@+id/tv_personal_money"
+                                    style="@style/PersonalTextRightStyle"
+                                    android:layout_alignParentRight="true"
+                                    android:text="余额"
+                                    />
+                        </RelativeLayout>
+
+                        <View style="@style/PersonalLine"/>
+
+                        <RelativeLayout style="@style/PersonalNormalStyle">
+
+                            <ImageView
+                                    android:id="@+id/personal_phone_icon"
+                                    style="@style/PersonalIconStyle"
+                                    android:src="@drawable/personel_my_jd_online_service"
+                                    />
+
+                            <TextView
+                                    style="@style/PersonalTextStyle"
+                                    android:layout_toRightOf="@id/personal_phone_icon"
+                                    android:text="电话"
+                                    />
+
+                            <TextView
+                                    android:id="@+id/tv_personal_phone"
+                                    style="@style/PersonalTextRightStyle"
+                                    android:layout_alignParentRight="true"
+                                    android:text="电话"
+                                    />
+                        </RelativeLayout>
+
+                        <View style="@style/PersonalLine"/>
+
+                        <RelativeLayout style="@style/PersonalBottomStyle">
+
+                            <ImageView
+                                    android:id="@+id/personal_email_icon"
+                                    style="@style/PersonalIconStyle"
+                                    android:src="@drawable/main_menu_history"
+                                    />
+
+                            <TextView
+                                    style="@style/PersonalTextStyle"
+                                    android:layout_toRightOf="@id/personal_email_icon"
+                                    android:text="邮箱"
+                                    />
+
+                            <TextView
+                                    android:id="@+id/tv_personal_email"
+                                    style="@style/PersonalTextRightStyle"
+                                    android:layout_alignParentRight="true"
+                                    android:text="邮箱"
+                                    />
+                        </RelativeLayout>
+
+                        <View style="@style/PersonalLine"/>
+
+                        <RelativeLayout style="@style/PersonalBottomStyle">
+
+                            <ImageView
+                                    android:id="@+id/personal_address_icon"
+                                    style="@style/PersonalIconStyle"
+                                    android:src="@drawable/main_menu_feedback"
+                                    />
+
+                            <TextView
+                                    style="@style/PersonalTextStyle"
+                                    android:layout_toRightOf="@id/personal_address_icon"
+                                    android:text="地址"
+                                    />
+
+                            <TextView
+                                    android:id="@+id/tv_personal_address"
+                                    style="@style/PersonalTextRightStyle"
+                                    android:layout_alignParentRight="true"
+                                    android:text="地址"
+                                    />
+
+                        </RelativeLayout>
+                    </LinearLayout>
+
+
+                    <!--  *********************  用户中心 *************************** -->
+
+                    <Button
+                            android:id="@+id/bt_personal_exit"
+                            android:layout_width="fill_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="14dp"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginRight="25dp"
+                            android:layout_marginTop="14dp"
+                            android:background="@drawable/personel_title_bg"
+                            android:gravity="center"
+                            android:padding="4dp"
+                            android:text="@string/personal_quit"
+                            android:textColor="#fff"
+                            android:textSize="18sp"
+                            />
+
+                </LinearLayout>
+            </LinearLayout>
+        </com.kerray.eshop.widgets.CustomScrollView>
+    </RelativeLayout>
+</RelativeLayout>

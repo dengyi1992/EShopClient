@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="dexedLibs">
+    <CLASSES>
+      <root url="jar://G:/Android源码/SplashActivity/bin/dexedLibs/android-support-v4-687bec91a4fa3af835b725b8a9e58264.jar!/" />
+      <root url="jar://G:/Android源码/SplashActivity/bin/dexedLibs/zxing-e5fa327e15719fdf3f4f34d91a0878ba.jar!/" />
+      <root url="jar://G:/Android源码/SplashActivity/bin/dexedLibs/annotations-53579a14ce9d3ed38ce5ff89aa31cd6c.jar!/" />
+      <root url="jar://G:/Android源码/SplashActivity/bin/dexedLibs/nineoldandroids-480e94032b0e04fb2d6f6aa08220bb34.jar!/" />
+      <root url="jar://G:/Android源码/SplashActivity/bin/dexedLibs/universal-image-loader-1.8.6-with-sources-e3479effd673b84550d53bdba68335ac.jar!/" />
+      <root url="jar://G:/Android源码/SplashActivity/bin/dexedLibs/zxing-fca599f78cd64a48dcd5e5c2a4446201.jar!/" />
+      <root url="jar://G:/Android源码/SplashActivity/bin/dexedLibs/nineoldandroids-beb59cc07863551a09fa9f5dacfa6bb1.jar!/" />
+      <root url="jar://G:/Android源码/SplashActivity/bin/dexedLibs/universal-image-loader-1.8.6-with-sources-b74253ba0a76c1e332141e669db06b6a.jar!/" />
+      <root url="jar://G:/Android源码/SplashActivity/bin/dexedLibs/android-support-v4-86e5b3a50fe52e1f65766967d22e7c1e.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

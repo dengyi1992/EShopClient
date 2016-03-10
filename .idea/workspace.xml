@@ -1,0 +1,1584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidConfiguredLogFilters">
+    <filters>
+      <filter>
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="" />
+        <option name="logTagPattern" value="kerray" />
+        <option name="name" value="kerray" />
+        <option name="packageNamePattern" value="" />
+        <option name="pid" value="" />
+      </filter>
+      <filter>
+        <option name="name" value="app: com.kerray.eshop" />
+        <option name="packageNamePattern" value="com.kerray.eshop" />
+      </filter>
+    </filters>
+  </component>
+  <component name="AndroidLayouts">
+    <shared>
+      <config>
+        <devices>
+          <device id="Nexus 5" />
+          <device id="Nexus 6" />
+          <device id="Nexus S" />
+          <device id="Nexus One" />
+          <device id="tv_720p" />
+          <device id="tv_1080p" />
+          <device id="Nexus 9" />
+          <device id="Nexus 4" />
+        </devices>
+        <target>android-21</target>
+      </config>
+    </shared>
+    <layouts>
+      <layout url="file://$PROJECT_DIR$/res/drawable/progressbar.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/activity_bottom.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/activity_guide.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/activity_main.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/activity_splash.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/activity_title.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/cate_list_item.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/view_cart.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/view_cart_shopinfo_item.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/view_category.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/view_category_item.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/view_category_seconde.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/view_login.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/view_main_pager.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/view_personal.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/view_product_detail.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/view_register.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/view_search.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/view_shopinfo_list.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/view_shopinfo_list_item.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/xlistview_header.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/menu/menu_main.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/res/layout/activity_guide.xml">
+        <config>
+          <theme>@android:style/Theme.Light.NoTitleBar</theme>
+        </config>
+      </layout>
+      <layout url="file://F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/res/layout/product_list_activity.xml">
+        <config>
+          <theme>@android:style/Theme.Light.NoTitleBar</theme>
+        </config>
+      </layout>
+      <layout url="file://G:/Android源码/SplashActivity/res/layout/activity_cart.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://G:/Android源码/SplashActivity/res/layout/activity_category.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://G:/Android源码/SplashActivity/res/layout/activity_home.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://G:/Android源码/SplashActivity/res/layout/activity_index.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://G:/Android源码/SplashActivity/res/layout/activity_login.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://G:/Android源码/SplashActivity/res/layout/activity_main.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://G:/Android源码/SplashActivity/res/layout/activity_more.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://G:/Android源码/SplashActivity/res/layout/activity_personal.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://G:/Android源码/SplashActivity/res/layout/activity_register.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://G:/Android源码/SplashActivity/res/layout/activity_search.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://G:/Android源码/SplashActivity/res/layout/activity_splash.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+    </layouts>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: com.kerray.eshop" />
+  </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/res/drawable/title_left_tv_bg.xml" line="9" />
+    <bookmark url="file://$PROJECT_DIR$/src/com/kerray/eshop/util/SoftMap.java" line="79" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="591b82c3-341d-4fec-a6e4-eb89167ddef3" name="Default" comment="工程创建">
+      <change type="NEW" beforePath="" afterPath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/RedBaby.iml" />
+      <change type="DELETED" beforePath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/src/com/shopping_ec/redbaby/view/PaymentCenterActivity.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/src/com/shopping_ec/redbaby/engine/impl/FavoriteEngineImpl.java" afterPath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/src/com/shopping_ec/redbaby/engine/impl/FavoriteEngineImpl.java" />
+      <change type="MODIFICATION" beforePath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/src/com/shopping_ec/redbaby/view/AddressView.java" afterPath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/src/com/shopping_ec/redbaby/view/AddressView.java" />
+      <change type="MODIFICATION" beforePath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/bin/classes.dex" afterPath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/bin/classes.dex" />
+      <change type="MODIFICATION" beforePath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/AndroidManifest.xml" afterPath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/src/com/shopping_ec/redbaby/view/TuiJianBrandView.java" afterPath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/src/com/shopping_ec/redbaby/view/TuiJianBrandView.java" />
+      <change type="MODIFICATION" beforePath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/src/com/shopping_ec/redbaby/view/LimitbuyView.java" afterPath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/src/com/shopping_ec/redbaby/view/LimitbuyView.java" />
+      <change type="MODIFICATION" beforePath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/bin/AndroidManifest.xml" afterPath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/bin/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/src/com/shopping_ec/redbaby/view/UserLoginProdView.java" afterPath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/src/com/shopping_ec/redbaby/view/UserLoginProdView.java" />
+      <change type="MODIFICATION" beforePath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/src/com/shopping_ec/redbaby/dao/DBHelper.java" afterPath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/src/com/shopping_ec/redbaby/dao/DBHelper.java" />
+      <change type="MODIFICATION" beforePath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/src/com/shopping_ec/redbaby/view/SendOkActivity.java" afterPath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/src/com/shopping_ec/redbaby/view/SendOkActivity.java" />
+      <change type="MODIFICATION" beforePath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/src/com/shopping_ec/redbaby/view/MyProdAccount.java" afterPath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/src/com/shopping_ec/redbaby/view/MyProdAccount.java" />
+      <change type="MODIFICATION" beforePath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/src/config.properties" afterPath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/src/config.properties" />
+      <change type="MODIFICATION" beforePath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/src/com/shopping_ec/redbaby/view/MyOrderView.java" afterPath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/src/com/shopping_ec/redbaby/view/MyOrderView.java" />
+      <change type="MODIFICATION" beforePath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/src/com/shopping_ec/redbaby/util/DensityUtil.java" afterPath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/src/com/shopping_ec/redbaby/util/DensityUtil.java" />
+      <change type="MODIFICATION" beforePath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/bin/resources.ap_" afterPath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/bin/resources.ap_" />
+      <change type="MODIFICATION" beforePath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/src/com/shopping_ec/redbaby/view/ProductDetailView.java" afterPath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/src/com/shopping_ec/redbaby/view/ProductDetailView.java" />
+      <change type="MODIFICATION" beforePath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/res/layout/activity_title.xml" afterPath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/res/layout/activity_title.xml" />
+      <change type="MODIFICATION" beforePath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/res/layout/payment_center_activity.xml" afterPath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/res/layout/payment_center_activity.xml" />
+      <change type="MODIFICATION" beforePath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/src/com/shopping_ec/redbaby/ConstantValue.java" afterPath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/src/com/shopping_ec/redbaby/ConstantValue.java" />
+      <change type="MODIFICATION" beforePath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/src/com/shopping_ec/redbaby/engine/impl/BrandTuijianEngineImpl.java" afterPath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/src/com/shopping_ec/redbaby/engine/impl/BrandTuijianEngineImpl.java" />
+      <change type="MODIFICATION" beforePath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/src/com/shopping_ec/redbaby/test/NetTest.java" afterPath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/src/com/shopping_ec/redbaby/test/NetTest.java" />
+      <change type="MODIFICATION" beforePath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/src/com/shopping_ec/redbaby/view/FavoriteProdView.java" afterPath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/src/com/shopping_ec/redbaby/view/FavoriteProdView.java" />
+      <change type="MODIFICATION" beforePath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/res/layout/product_list_activity.xml" afterPath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/res/layout/product_list_activity.xml" />
+      <change type="MODIFICATION" beforePath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/src/com/shopping_ec/redbaby/view/ProductListView.java" afterPath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/src/com/shopping_ec/redbaby/view/ProductListView.java" />
+      <change type="MODIFICATION" beforePath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/src/com/shopping_ec/redbaby/view/InvoiceActivity.java" afterPath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/src/com/shopping_ec/redbaby/view/InvoiceActivity.java" />
+      <change type="MODIFICATION" beforePath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/src/com/shopping_ec/redbaby/engine/impl/GoSearchEngineImpl.java" afterPath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/src/com/shopping_ec/redbaby/engine/impl/GoSearchEngineImpl.java" />
+      <change type="MODIFICATION" beforePath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/res/layout/main_pager.xml" afterPath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/res/layout/main_pager.xml" />
+      <change type="MODIFICATION" beforePath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/res/layout/favorite_prop_item.xml" afterPath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/res/layout/favorite_prop_item.xml" />
+      <change type="MODIFICATION" beforePath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/src/com/shopping_ec/redbaby/bean/Product.java" afterPath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/src/com/shopping_ec/redbaby/bean/Product.java" />
+      <change type="MODIFICATION" beforePath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/src/com/shopping_ec/redbaby/MainActivity.java" afterPath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/src/com/shopping_ec/redbaby/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/bin/jarlist.cache" afterPath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/bin/jarlist.cache" />
+      <change type="MODIFICATION" beforePath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/src/com/shopping_ec/redbaby/view/manager/BottomManager.java" afterPath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/src/com/shopping_ec/redbaby/view/manager/BottomManager.java" />
+      <change type="MODIFICATION" beforePath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/src/com/shopping_ec/redbaby/view/manager/UIManager.java" afterPath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/src/com/shopping_ec/redbaby/view/manager/UIManager.java" />
+      <change type="MODIFICATION" beforePath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/src/com/shopping_ec/redbaby/view/HomeView.java" afterPath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/src/com/shopping_ec/redbaby/view/HomeView.java" />
+      <change type="MODIFICATION" beforePath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/res/layout/xlistview_header.xml" afterPath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/res/layout/xlistview_header.xml" />
+      <change type="MODIFICATION" beforePath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/.classpath" afterPath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/.classpath" />
+      <change type="MODIFICATION" beforePath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/src/com/shopping_ec/redbaby/GlobalParams.java" afterPath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/src/com/shopping_ec/redbaby/GlobalParams.java" />
+      <change type="MODIFICATION" beforePath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/res/layout/activity_tuijian_brand.xml" afterPath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/res/layout/activity_tuijian_brand.xml" />
+      <change type="MODIFICATION" beforePath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/bin/RedBaby.apk" afterPath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/bin/RedBaby.apk" />
+      <change type="MODIFICATION" beforePath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/src/com/shopping_ec/redbaby/view/FavoriteProdViewNull.java" afterPath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/src/com/shopping_ec/redbaby/view/FavoriteProdViewNull.java" />
+      <change type="MODIFICATION" beforePath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/res/values/dimens.xml" afterPath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/res/values/dimens.xml" />
+      <change type="MODIFICATION" beforePath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/src/com/shopping_ec/redbaby/GuideActivity2.java" afterPath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/src/com/shopping_ec/redbaby/GuideActivity2.java" />
+      <change type="MODIFICATION" beforePath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/res/layout/paytype_activity.xml" afterPath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/res/layout/paytype_activity.xml" />
+      <change type="MODIFICATION" beforePath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/src/com/shopping_ec/redbaby/view/manager/TitleManager.java" afterPath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/src/com/shopping_ec/redbaby/view/manager/TitleManager.java" />
+      <change type="MODIFICATION" beforePath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/src/com/shopping_ec/redbaby/view/MoreView.java" afterPath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/src/com/shopping_ec/redbaby/view/MoreView.java" />
+      <change type="MODIFICATION" beforePath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/src/com/shopping_ec/redbaby/view/OrderDetailView.java" afterPath="F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第3组（项目）/RedBaby/src/com/shopping_ec/redbaby/view/OrderDetailView.java" />
+    </list>
+    <ignored path="EShopClient.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="Commander">
+    <leftPanel />
+    <rightPanel />
+    <splitter proportion="0.5" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DatabaseView">
+    <option name="FLATTEN" value="false" />
+    <option name="GROUP_BY_TYPE" value="true" />
+    <option name="SORT_CHILDREN" value="false" />
+    <option name="SHOW_TABLE_CONSTRAINTS" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="EShopClient" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="ConstantValue.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/kerray/eshop/ConstantValue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="95" max-vertical-offset="1843">
+              <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+              <folding>
+                <element signature="docComment;field#UPDATE_URL#0;class#ConstantValue#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductDetailView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/kerray/eshop/view/ProductDetailView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2052" max-vertical-offset="7106">
+              <caret line="154" column="17" selection-start-line="154" selection-start-column="17" selection-end-line="154" selection-end-column="17" />
+              <folding>
+                <element signature="docComment;method#ProcessData#0;class#ProductDetailView#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IndexShakeActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://G:/Android源码/SplashActivity/src/com/itau/jingdong/ui/IndexShakeActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5192308" vertical-offset="39" max-vertical-offset="2261">
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/res/values/attrs.xml" />
+        <option value="$PROJECT_DIR$/src/viewpagerindicator/CirclePageIndicator.java" />
+        <option value="$PROJECT_DIR$/src/viewpagerindicator/IconPageIndicator.java" />
+        <option value="$PROJECT_DIR$/src/viewpagerindicator/LinePageIndicator.java" />
+        <option value="$PROJECT_DIR$/src/viewpagerindicator/TabPageIndicator.java" />
+        <option value="$PROJECT_DIR$/src/viewpagerindicator/TitlePageIndicator.java" />
+        <option value="$PROJECT_DIR$/res/layout/activity_guide.xml" />
+        <option value="$PROJECT_DIR$/res/values/vpi__styles.xml" />
+        <option value="G:/Android源码/SplashActivity/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/src/com/kerray/eshop/activity/GuideActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/kerray/eshop/view/RegisterView.java" />
+        <option value="$PROJECT_DIR$/res/layout/view_register.xml" />
+        <option value="$PROJECT_DIR$/src/com/kerray/eshop/bean/ShopInfoList.java" />
+        <option value="$PROJECT_DIR$/res/layout/view_cart.xml" />
+        <option value="$PROJECT_DIR$/src/com/kerray/eshop/util/PromptManager.java" />
+        <option value="$PROJECT_DIR$/res/layout/view_product_detail.xml" />
+        <option value="$PROJECT_DIR$/src/com/kerray/eshop/util/GsonUtils.java" />
+        <option value="$PROJECT_DIR$/src/com/kerray/eshop/util/JsonUtils.java" />
+        <option value="$PROJECT_DIR$/src/com/kerray/eshop/GlobalParams.java" />
+        <option value="$PROJECT_DIR$/res/layout/activity_bottom.xml" />
+        <option value="$PROJECT_DIR$/res/layout/view_set_ip.xml" />
+        <option value="$PROJECT_DIR$/src/com/kerray/eshop/view/IPSetting.java" />
+        <option value="$PROJECT_DIR$/src/com/kerray/eshop/adapter/HomePagerAdapter.java" />
+        <option value="$PROJECT_DIR$/src/com/kerray/eshop/view/PersonelView.java" />
+        <option value="G:/Android源码/SplashActivity/res/layout/activity_shake.xml" />
+        <option value="$PROJECT_DIR$/src/com/kerray/eshop/view/manager/BottomManager.java" />
+        <option value="$PROJECT_DIR$/src/com/kerray/eshop/view/manager/TitleManager.java" />
+        <option value="$PROJECT_DIR$/res/layout/activity_title.xml" />
+        <option value="$PROJECT_DIR$/res/layout/view_main_pager.xml" />
+        <option value="$PROJECT_DIR$/src/com/kerray/eshop/util/DensityUtil.java" />
+        <option value="$PROJECT_DIR$/src/com/kerray/eshop/view/CategoryView.java" />
+        <option value="$PROJECT_DIR$/src/com/kerray/eshop/util/ShakeListenerUtils.java" />
+        <option value="$PROJECT_DIR$/res/layout/view_shake.xml" />
+        <option value="$PROJECT_DIR$/src/com/kerray/eshop/view/SnakeView.java" />
+        <option value="$PROJECT_DIR$/src/com/kerray/eshop/view/manager/BaseView.java" />
+        <option value="$PROJECT_DIR$/src/com/kerray/eshop/view/manager/UIManager.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/com/kerray/eshop/activity/SplashActivity.java" />
+        <option value="$PROJECT_DIR$/res/layout/activity_splash.xml" />
+        <option value="$PROJECT_DIR$/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/src/com/kerray/eshop/view/CartView.java" />
+        <option value="$PROJECT_DIR$/src/com/kerray/eshop/view/CategoryView1.java" />
+        <option value="$PROJECT_DIR$/src/com/kerray/eshop/view/LoginView.java" />
+        <option value="$PROJECT_DIR$/src/com/kerray/eshop/MainActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/kerray/eshop/view/ProductDetailView.java" />
+        <option value="$PROJECT_DIR$/src/com/kerray/eshop/view/HomeView.java" />
+        <option value="$PROJECT_DIR$/res/values/color.xml" />
+        <option value="$PROJECT_DIR$/res/layout/view_shopinfo_list.xml" />
+        <option value="$PROJECT_DIR$/src/com/kerray/eshop/view/ShopInfoListView.java" />
+        <option value="G:/Android源码/SplashActivity/src/com/itau/jingdong/ui/IndexShakeActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/kerray/eshop/ConstantValue.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android Lint</id>
+          </State>
+          <State>
+            <id>GSPGrailsGroovy</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>GrailsGroovy</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>J2ME Plugin</id>
+          </State>
+          <State>
+            <id>Maven</id>
+          </State>
+          <State>
+            <id>Numeric issues</id>
+          </State>
+          <State>
+            <id>Plugin DevKit</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>AndroidLintValidFragment</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EShopClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EShopClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EShopClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EShopClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EShopClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EShopClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EShopClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EShopClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EShopClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EShopClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EShopClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EShopClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="options.lastSelected" value="preferences.pluginManager" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="7&amp;178617c6&amp;0&amp;0001" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="nexus5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/libs/android-support-v4.jar!/" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="FullScreen" value="false" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.kerray.eshop.util" />
+      <recent name="com.kerray.eshop.view" />
+      <recent name="com.kerray.eshop.adapter" />
+      <recent name="com.github.pull_to_refresh" />
+      <recent name="com.kerray.eshop.widgets" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kerray\Documents\IdeaProjects\EShopClient\libs" />
+      <recent name="C:\Users\kerray\Documents\IdeaProjects\EShopClient\res\drawable-mdpi" />
+      <recent name="C:\Users\kerray\Documents\IdeaProjects\EShopClient\res\drawable-hdpi" />
+      <recent name="C:\Users\kerray\Documents\IdeaProjects\EShopClient\res\drawable" />
+      <recent name="C:\Users\kerray\Documents\IdeaProjects\EShopClient\res\layout" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kerray\Documents\IdeaProjects\EShopClient\res\drawable" />
+      <recent name="C:\Users\kerray\Documents\IdeaProjects\EShopClient\res\drawable-hdpi" />
+      <recent name="C:\Users\kerray\Documents\IdeaProjects\EShopClient\res\drawable-mdpi" />
+      <recent name="C:\Users\kerray\Documents\IdeaProjects\EShopClient\res\drawable-xhdpi" />
+      <recent name="C:\Users\kerray\Documents\IdeaProjects\EShopClient\res\drawable-ldpi" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.kerray.EShopClient" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Android Application.EShopClient">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="JAR_PATH" value="$PROJECT_DIR$/libs/android-support-v4.jar" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="false" name="EShopClient" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="EShopClient" />
+      <option name="ACTIVITY_CLASS" value="com.kerray.eshop.MainActivity" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="true" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="SplashActivity" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="SplashActivity" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="true" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Android Application.EShopClient" />
+      <item index="1" class="java.lang.String" itemvalue="Android Application.SplashActivity" />
+    </list>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SliceManager">
+    <option name="analysisUIOptions">
+      <AnalysisUIOptions />
+    </option>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\kerray\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="591b82c3-341d-4fec-a6e4-eb89167ddef3" name="Default" comment="" />
+      <created>1436460985631</created>
+      <option name="number" value="Default" />
+      <updated>1436460985631</updated>
+      <workItem from="1436460987042" duration="873000" />
+      <workItem from="1436493465775" duration="135000" />
+      <workItem from="1436497715230" duration="587000" />
+      <workItem from="1436516563695" duration="13666000" />
+      <workItem from="1436534026008" duration="8198000" />
+      <workItem from="1436580149864" duration="34922000" />
+      <workItem from="1436668541496" duration="21681000" />
+      <workItem from="1436714460825" duration="3378000" />
+      <workItem from="1436756532606" duration="18100000" />
+      <workItem from="1436782429412" duration="1923000" />
+      <workItem from="1436784538873" duration="8550000" />
+      <workItem from="1436845290356" duration="12921000" />
+      <workItem from="1436862449187" duration="384000" />
+      <workItem from="1436863251614" duration="17023000" />
+      <workItem from="1436925583318" duration="16455000" />
+      <workItem from="1436948132508" duration="3559000" />
+      <workItem from="1436969248702" duration="102000" />
+      <workItem from="1436969395071" duration="6906000" />
+      <workItem from="1437018176535" duration="1036000" />
+      <workItem from="1437025856819" duration="15251000" />
+      <workItem from="1437058502473" duration="4668000" />
+      <workItem from="1437100221262" duration="27785000" />
+      <workItem from="1437199209320" duration="28704000" />
+      <workItem from="1437269179741" duration="287000" />
+      <workItem from="1437274253430" duration="10207000" />
+      <workItem from="1437287370851" duration="17315000" />
+      <workItem from="1437308015607" duration="3753000" />
+      <workItem from="1437312397183" duration="5010000" />
+      <workItem from="1437317556355" duration="4981000" />
+      <workItem from="1437351264948" duration="9419000" />
+      <workItem from="1437362487945" duration="3736000" />
+      <workItem from="1437366377031" duration="6745000" />
+      <workItem from="1437373716762" duration="55000" />
+      <workItem from="1437373835521" duration="11572000" />
+      <workItem from="1437387004818" duration="1019000" />
+      <workItem from="1437449954237" duration="4329000" />
+      <workItem from="1437480197329" duration="13384000" />
+      <workItem from="1437539238880" duration="15308000" />
+      <workItem from="1437572985300" duration="9874000" />
+      <workItem from="1437635741877" duration="29888000" />
+      <workItem from="1437705809358" duration="27825000" />
+      <workItem from="1437743685665" duration="12645000" />
+      <workItem from="1437790826416" duration="16917000" />
+      <workItem from="1437826765088" duration="16169000" />
+      <workItem from="1437876488546" duration="14597000" />
+      <workItem from="1437897672795" duration="11839000" />
+      <workItem from="1437928363636" duration="5558000" />
+      <workItem from="1437970300205" duration="30493000" />
+      <workItem from="1438057871756" duration="15456000" />
+      <workItem from="1438240332012" duration="16710000" />
+      <workItem from="1438427607256" duration="6427000" />
+      <workItem from="1438442138765" duration="960000" />
+      <workItem from="1438769683007" duration="5092000" />
+      <workItem from="1439121798694" duration="2616000" />
+      <workItem from="1439478202152" duration="655000" />
+      <workItem from="1440337782525" duration="65000" />
+      <workItem from="1440348320036" duration="2455000" />
+      <workItem from="1440859745094" duration="177000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="580345000" />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2836485" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.11584327" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995737" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28698555" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995737" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17217484" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30834752" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.066740826" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21785174" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28698555" sideWeight="0.5" order="16" side_tool="true" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3056443" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" x="92" y="92" width="1736" height="856" />
+      <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15016685" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3253833" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3245083" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.134594" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18464962" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29982963" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <MESSAGE value="工程创建" />
+    <MESSAGE value="全部分类页面" />
+    <option name="LAST_COMMIT_MESSAGE" value="全部分类页面" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="163" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/kerray/eshop/adapter/CateListAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.7034483" vertical-offset="688" max-vertical-offset="1558">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kerray/eshop/util/DensityUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5955224" vertical-offset="0" max-vertical-offset="670">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kerray/eshop/view/CategoryView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="5434">
+          <caret line="94" column="41" selection-start-line="94" selection-start-column="8" selection-end-line="94" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/image2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/lottery_head_2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://G:/Android源码/SplashActivity/src/com/itau/jingdong/utils/ShakeListenerUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1862">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/Android源码/SplashActivity/res/layout/activity_shake.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.5161295" vertical-offset="6" max-vertical-offset="1140">
+          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_title.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13587604" vertical-offset="0" max-vertical-offset="2413">
+          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28390804" vertical-offset="0" max-vertical-offset="5586">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kerray/eshop/util/MemoryManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38850576" vertical-offset="973" max-vertical-offset="1843">
+          <caret line="76" column="4" selection-start-line="76" selection-start-column="4" selection-end-line="76" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kerray/eshop/util/ShakeListenerUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24022989" vertical-offset="228" max-vertical-offset="1862">
+          <caret line="32" column="35" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/view_product_detail.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.60429084" vertical-offset="120" max-vertical-offset="5187">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kerray/eshop/view/manager/UIManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21839081" vertical-offset="57" max-vertical-offset="4104">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/progressbar.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.6933702" vertical-offset="1492" max-vertical-offset="2337">
+          <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_splash.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.68802226" vertical-offset="0" max-vertical-offset="950">
+          <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kerray/eshop/activity/SplashActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25367156" vertical-offset="399" max-vertical-offset="5263">
+          <caret line="64" column="41" selection-start-line="64" selection-start-column="41" selection-end-line="64" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2283044" vertical-offset="0" max-vertical-offset="931">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kerray/eshop/view/CartView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19628647" vertical-offset="726" max-vertical-offset="6973">
+          <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kerray/eshop/view/manager/BaseView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33289126" vertical-offset="1155" max-vertical-offset="5852">
+          <caret line="117" column="28" selection-start-line="117" selection-start-column="28" selection-end-line="117" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kerray/eshop/view/RegisterView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.9655172" vertical-offset="975" max-vertical-offset="1729">
+          <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kerray/eshop/view/SearchView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.118037134" vertical-offset="6" max-vertical-offset="760">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kerray/eshop/view/PersonelView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.2931035" vertical-offset="741" max-vertical-offset="2736">
+          <caret line="176" column="52" selection-start-line="176" selection-start-column="52" selection-end-line="176" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kerray/eshop/view/SnakeView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33023873" vertical-offset="929" max-vertical-offset="2394">
+          <caret line="92" column="30" selection-start-line="92" selection-start-column="30" selection-end-line="92" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kerray/eshop/view/LoginView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.61764705" vertical-offset="2352" max-vertical-offset="3781">
+          <caret line="190" column="29" selection-start-line="190" selection-start-column="16" selection-end-line="190" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kerray/eshop/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41736695" vertical-offset="1222" max-vertical-offset="2432">
+          <caret line="101" column="0" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kerray/eshop/view/CategoryView1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37455198" vertical-offset="1843" max-vertical-offset="6612">
+          <caret line="147" column="13" selection-start-line="147" selection-start-column="13" selection-end-line="147" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kerray/eshop/adapter/HomePagerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12757201" vertical-offset="539" max-vertical-offset="1102">
+          <caret line="47" column="46" selection-start-line="47" selection-start-column="46" selection-end-line="47" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Android_SDK_24.0.2/sources/android-19/android/widget/ImageView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27889907" vertical-offset="0" max-vertical-offset="17347">
+          <caret line="63" column="35" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Android_SDK_24.0.2/sources/android-19/android/widget/ImageButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27889907" vertical-offset="0" max-vertical-offset="741">
+          <caret line="76" column="13" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Android_SDK_24.0.2/sources/android-19/android/widget/RelativeLayout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27889907" vertical-offset="0" max-vertical-offset="27835">
+          <caret line="82" column="13" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Android_SDK_24.0.2/sources/android-19/android/widget/TextView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27889907" vertical-offset="0" max-vertical-offset="139365">
+          <caret line="227" column="13" selection-start-line="227" selection-start-column="13" selection-end-line="227" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Android_SDK_24.0.2/sources/android-19/android/widget/Button.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30645162" vertical-offset="0" max-vertical-offset="646">
+          <caret line="96" column="13" selection-start-line="96" selection-start-column="13" selection-end-line="96" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Android_SDK_24.0.2/sources/android-19/android/widget/CompoundButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23835126" vertical-offset="0" max-vertical-offset="5586">
+          <caret line="46" column="49" selection-start-line="46" selection-start-column="49" selection-end-line="46" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Android_SDK_24.0.2/sources/android-19/android/widget/RadioButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27240142" vertical-offset="0" max-vertical-offset="836">
+          <caret line="51" column="41" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Android_SDK_24.0.2/sources/android-19/android/widget/ListView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="156" max-vertical-offset="60135">
+          <caret line="74" column="36" selection-start-line="74" selection-start-column="36" selection-end-line="74" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Android_SDK_24.0.2/sources/android-19/android/widget/AbsListView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108642">
+          <caret line="94" column="45" selection-start-line="94" selection-start-column="45" selection-end-line="94" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Android_SDK_24.0.2/sources/android-19/android/widget/AdapterView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="15314">
+          <caret line="47" column="66" selection-start-line="47" selection-start-column="66" selection-end-line="47" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Android_SDK_24.0.2/sources/android-19/android/view/ViewGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2440367" vertical-offset="0" max-vertical-offset="95836">
+          <caret line="103" column="42" selection-start-line="103" selection-start-column="42" selection-end-line="103" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Android_SDK_24.0.2/sources/android-19/android/view/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27889907" vertical-offset="133" max-vertical-offset="209608">
+          <caret line="686" column="35" selection-start-line="686" selection-start-column="35" selection-end-line="686" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/view_main_pager.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3696498" vertical-offset="0" max-vertical-offset="3154">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kerray/eshop/view/HomeView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="494" max-vertical-offset="4959">
+          <caret line="77" column="48" selection-start-line="77" selection-start-column="48" selection-end-line="77" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/color.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="418">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/view_shopinfo_list.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46846846" vertical-offset="1136" max-vertical-offset="1634">
+          <caret line="68" column="21" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kerray/eshop/view/ShopInfoListView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22802198" vertical-offset="12" max-vertical-offset="6517">
+          <caret line="39" column="46" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/Android源码/SplashActivity/gen/com/itau/jingdong/R.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.331565" vertical-offset="14885" max-vertical-offset="20368">
+          <caret line="1166" column="32" selection-start-line="1166" selection-start-column="32" selection-end-line="1166" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Android_SDK_24.0.2/platforms/android-10/android.jar!/android/content/Context.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35693216" vertical-offset="411" max-vertical-offset="4028">
+          <caret line="62" column="31" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/view_shake.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.0788803" vertical-offset="0" max-vertical-offset="1159">
+          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kerray/eshop/view/ProductDetailView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1976" max-vertical-offset="6878">
+          <caret line="154" column="17" selection-start-line="154" selection-start-column="17" selection-end-line="154" selection-end-column="17" />
+          <folding>
+            <element signature="docComment;method#ProcessData#0;class#ProductDetailView#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kerray/eshop/ConstantValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1843">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <folding>
+            <element signature="docComment;field#UPDATE_URL#0;class#ConstantValue#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/Android源码/SplashActivity/src/com/itau/jingdong/ui/IndexShakeActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5192308" vertical-offset="39" max-vertical-offset="2261">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Android</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>EShopClient</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>afinal_0.5_bin</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

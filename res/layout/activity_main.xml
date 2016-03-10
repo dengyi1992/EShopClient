@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+        >
+
+    <include
+            android:id="@+id/rl_title"
+            layout="@layout/activity_title"
+            />
+
+    <include
+            android:id="@+id/ll_bottom"
+            layout="@layout/activity_bottom"
+            />
+
+    <RelativeLayout
+            android:id="@+id/rl_middle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/ll_bottom"
+            android:layout_below="@id/rl_title"
+            >
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@android:id/tabhost"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:layout_alignParentBottom="true"
+        >
+
+    <RadioGroup
+            android:id="@+id/home_radio_button_group"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_gravity="bottom"
+            android:background="@drawable/main_navigation_background"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            >
+
+        <RadioButton
+                android:id="@+id/rb_home_tab_main"
+                style="@style/home_tab_bottom"
+                android:background="@drawable/home_tab_background_selector"
+                android:checked="true"
+                android:drawableTop="@drawable/home_tab_main_selector"
+                android:onClick="onClick"
+                />
+
+        <RadioButton
+                android:id="@+id/rb_home_tab_search"
+                style="@style/home_tab_bottom"
+                android:background="@drawable/home_tab_background_selector"
+                android:drawableTop="@drawable/home_tab_search_selector"
+                android:onClick="onClick"
+                android:visibility="gone"
+                />
+
+        <RadioButton
+                android:id="@+id/rb_home_tab_category"
+                style="@style/home_tab_bottom"
+                android:background="@drawable/home_tab_background_selector"
+                android:drawableTop="@drawable/home_tab_category_selector"
+                android:onClick="onClick"
+                />
+
+        <RadioButton
+                android:id="@+id/rb_home_tab_cart"
+                style="@style/home_tab_bottom"
+                android:background="@drawable/home_tab_background_selector"
+                android:drawableTop="@drawable/home_tab_cart_selector"
+                android:onClick="onClick"
+                />
+
+        <RadioButton
+                android:id="@+id/rb_home_tab_personal"
+                style="@style/home_tab_bottom"
+                android:background="@drawable/home_tab_background_selector"
+                android:drawableTop="@drawable/home_tab_personal_selector"
+                android:onClick="onClick"
+                />
+    </RadioGroup>
+
+</LinearLayout>

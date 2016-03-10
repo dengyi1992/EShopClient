@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="libs">
+    <CLASSES>
+      <root url="jar://F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第5组/RedBaby/libs/asmack.jar!/" />
+      <root url="jar://F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第5组/RedBaby/libs/commons-lang3-3.0-beta.jar!/" />
+      <root url="jar://F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第5组/RedBaby/libs/alibaba.jar!/" />
+      <root url="jar://F:/Android/视频教程/黑马28期/10、UML和电子商城/商城全部项目代码/第5组/RedBaby/libs/android-support-v4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

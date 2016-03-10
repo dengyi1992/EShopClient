@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:padding="5.0dip"
+              android:background="@color/white"
+        >
+
+    <RelativeLayout
+            android:id="@+id/relImage"
+            android:layout_width="100.0dip"
+            android:layout_height="100.0dip"
+            android:layout_gravity="center_vertical"
+            >
+
+        <ImageView
+                android:id="@+id/iv_shopinfo_list_item_image"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/border_80"
+                android:scaleType="fitXY"
+                />
+    </RelativeLayout>
+
+    <RelativeLayout
+            android:id="@+id/relContent"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginRight="10.0dip"
+            >
+
+        <!--保存和获取属性 id，不用显示-->
+        <TextView
+                android:id="@+id/tv_hide_id"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                />
+
+        <TextView
+                android:id="@+id/tv_shopinfo_list_item_title"
+                style="@style/style_15_666666_BOLD"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:ellipsize="end"
+                android:lines="2"
+                android:textSize="18sp"
+                android:text="标题"
+                />
+
+        <TextView
+                android:id="@+id/tv_shopinfo_list_item_commentNum"
+                style="@style/style_13_4B4B4B_BOLD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:text="0人评价"
+                />
+
+        <TextView
+                android:id="@+id/tv_shopinfo_list_item_price"
+                style="@style/style_15_C21513_BOLD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/tv_shopinfo_list_item_commentNum"
+                android:textSize="18sp"
+                android:text="1999"
+                />
+
+        <TextView
+                android:id="@+id/tv_shopinfo_list_item_marketPrice"
+                style="@style/style_13_9F9F9F_BOLD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginTop="5.0dip"
+                android:layout_above="@id/tv_shopinfo_list_item_commentNum"
+                android:layout_toRightOf="@id/tv_shopinfo_list_item_price"
+                android:text="2000"
+                />
+
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/arrow"
+                />
+    </RelativeLayout>
+
+</LinearLayout>

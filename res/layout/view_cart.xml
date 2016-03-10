@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#f0f0f0"
+        >
+
+    <!--    如果没有登录，打开登录提示 -->
+    <LinearLayout
+            android:id="@+id/ll_cart_unlogin"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal"
+            android:background="@drawable/category_selection_gridview_bg"
+            >
+
+        <TextView
+                android:paddingLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="12sp"
+                android:textColor="@color/goldyellow"
+                android:text="@string/cart_logininfo"
+                />
+
+        <Button
+                android:id="@+id/bt_cart_login"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:background="@drawable/cart_title_button_pressed"
+                android:layout_marginLeft="15dp"
+                android:text="登录"
+                />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:id="@+id/ll_cart_login"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            >
+
+        <LinearLayout
+                android:id="@+id/ll_cart_null"
+                android:layout_width="fill_parent"
+                android:layout_height="280dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical"
+                android:background="@drawable/category_selection_gridview_bg"
+                android:weightSum="1"
+                >
+
+
+            <ImageView
+                    android:id="@+id/cart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/cart_no_data_icon"
+                    android:padding="10dp"
+                    />
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingTop="15dp"
+                    android:textColor="@color/black"
+                    android:text="@string/cartinfo_no"
+                    />
+
+            <Button
+                    android:id="@+id/bt_cart_market"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/cart_btn_normal"
+                    android:text="@string/cart_market"
+                    android:textSize="18sp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    />
+        </LinearLayout>
+
+        <ListView
+                android:id="@+id/lv_cart_listview"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                />
+
+        <LinearLayout
+                android:id="@+id/ll_cart_total"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/lv_cart_listview"
+                android:background="#c000"
+
+                >
+
+            <TextView
+                    android:id="@+id/tv_cart_total"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="2"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:text="合计:¥"
+                    android:textSize="22sp"
+                    />
+
+            <TextView
+                    android:id="@+id/tv_cart_account"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:text="结算()"
+                    android:background="@drawable/add_cart_bg"
+                    android:textSize="24sp"
+                    />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

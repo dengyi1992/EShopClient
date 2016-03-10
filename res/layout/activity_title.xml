@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#D31829"
+                android:paddingTop="30dp"
+                android:id="@+id/rl_title"
+        >
+    <!--android:fitsSystemWindows="true"
+    android:clipToPadding="true"-->
+    <!-- 首页 -->
+    <RelativeLayout
+            android:id="@+id/rl_index"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            >
+
+        <TextView
+                android:id="@+id/tv_index"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical|left"
+                android:text="默认显示的标题"
+                android:layout_marginLeft="8dp"
+                android:textSize="18sp"
+                android:textColor="#FFF"
+                />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+            android:id="@+id/rl_show"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:visibility="gone"
+            >
+
+        <TextView
+                android:id="@+id/tv_back"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:padding="8dp"
+                android:gravity="center"
+                android:text="返回"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:background="@drawable/title_left_tv_bg"
+                />
+
+        <TextView
+                android:id="@+id/tv_info"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:text="专区"
+                />
+
+        <TextView
+                android:id="@+id/tv_right"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_alignParentRight="true"
+                android:padding="8dp"
+                android:gravity="center"
+                android:text="套餐购买"
+                android:textColor="@color/white"
+                android:background="@drawable/title_left_tv_bg"
+                android:textSize="18sp"
+                />
+    </RelativeLayout>
+
+    <LinearLayout
+            android:id="@+id/rl_search"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:background="#D31829"
+            android:gravity="center_vertical"
+            android:visibility="gone"
+            >
+
+            <!--系统默认第一个EditText是获得焦点的，解决办法，增加一个不显示的view强制获得焦点-->
+            <View
+                    android:layout_width="0dip"
+                    android:layout_height="0dip"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    />
+
+        <com.kerray.eshop.widgets.AutoClearEditText
+                android:id="@+id/et_search"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/search_box"
+                android:drawableRight="@drawable/app_icon_voice"
+                android:hint="@string/index_search_edit_hint"
+                android:padding="6dp"
+                android:singleLine="true"
+                android:textColor="@color/darkgray"
+                android:textSize="@dimen/micro_text_size"
+                />
+
+        <ImageButton
+                android:id="@+id/ibtn_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/app_home_title_r_button_selector"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:src="@drawable/search_icon"
+                android:layout_toRightOf="@id/et_search"
+                />
+    </LinearLayout>
+</RelativeLayout>
